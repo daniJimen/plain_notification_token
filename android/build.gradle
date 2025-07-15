@@ -2,7 +2,7 @@ group = "net.kikuchy.plain_notification_token"
 version = "1.0-SNAPSHOT"
 
 buildscript {
-    ext.kotlin_version = "2.1.0"
+    ext.kotlin_version = "1.9.25"
     repositories {
         google()
         mavenCentral()
@@ -28,6 +28,7 @@ android {
     namespace = "net.kikuchy.plain_notification_token"
 
     compileSdk = 35
+    buildToolsVersion "35.0.0"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
